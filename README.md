@@ -23,4 +23,9 @@ Example Usage
 
     You scored ** 4/5 **
 
+Requirements
+============
+
+* Ruby 1.9.1 or newer
+* Play: SoX v14.3.2 or newer
 
