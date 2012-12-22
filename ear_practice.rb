@@ -39,9 +39,11 @@ class EarPractice
   end
 
   def play(chord, interval = 0.05)
+    raise "`which` command not found" unless `which`.empty?
+    raise "`play` command not found" if `which play`.empty?
     notes = Chords.send(chord)
     intervals = notes.size.times.map { |i| interval * i }
-    system "play -q -n synth pl #{notes.join " pl "} delay #{intervals.join " "} remix - fade 0 4 .1 norm -1"
+    `play -q -n synth pl #{notes.join " pl "} delay #{intervals.join " "} remix - fade 0 4 .1 norm -1`
   end
 
   def run(num_times = 10)
