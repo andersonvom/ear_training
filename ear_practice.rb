@@ -78,7 +78,8 @@ if $0 == __FILE__
   num_times = gets.to_i
 
   e = EarPractice.new chords
-  puts "Prepare to play and hit ENTER..."
+  puts "Listen to the chords and fill in with the correct answer."
+  puts "When you are ready press ENTER..."
   puts
   gets
 
