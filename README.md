@@ -3,10 +3,10 @@ Ear Training
 
 This is a little script to help train your ear for guitar chords. Once you select which chords to practice, it will randomly play a chord and ask you to answer what the chord was.
 
-Usage
-=====
+Example Usage
+=============
 
-    ruby ear_practice.rb 
+    user@host:~/ear_training$ ruby ear_practice.rb 
     What chords do you want to practice?
     A Am E Em D Dm
     How many times?
