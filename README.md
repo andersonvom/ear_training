@@ -12,7 +12,8 @@ Example Usage
     How many times?
     5
 
-    Prepare to play and hit ENTER...
+    Listen to the chords and fill in with the correct answer.
+    When you are ready press ENTER...
 
     Enter chord name: A
     Enter chord name: A
